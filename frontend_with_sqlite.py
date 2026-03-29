@@ -1,6 +1,6 @@
 import streamlit as st
 from backend_with_sqlite import chatbot, retrieve_all_threads
-from langchain_core.messages import HumanMessage, AIMessage
+from langchain_core.messages import HumanMessage
 import uuid
 
 # **************************************** utility functions *************************
